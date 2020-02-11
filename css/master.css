@@ -166,8 +166,6 @@ header>nav>ul>li:first-child>a:hover{
     display: inline-block;
     width: 100%;
     text-align: center;
-    margin-top: 5%;
-    margin-top: 5%;
     color: white;
 }
 
@@ -228,18 +226,21 @@ hr {
     margin-top: 2%;
 }
 
-section, footer {
+.footer {
     background: #1A1E25;
     color: #868c96;
+    display: block;
 }
 
-footer p {
+.footer p {
     padding: 40px 0;
+    margin: 0;
     text-align: center;
 }
 
-footer img {
-    width: 44px;
+.footer h1 {
+    color: white;
+    padding-top: 4%;
 }
 
 .footer-link {
@@ -400,6 +401,10 @@ h2 {
     margin-left: 60%;
     margin-right: 10%;
 } 
+
+.profile p,h2 {
+    color: black;
+} 
     
 /*    MEDIA QUERIES    */
     
@@ -549,72 +554,72 @@ h2 {
 }
 
 .p1 {
-    background-image: url(../images/hero/0.jpg);
+    background-image: url(../images/lg/lg-image-01.jpg);
     background-size: cover;
 }
 
 
 .p2 {
-    background-image: url(../images/hero/1.jpg);
+    background-image: url(../images/lg/lg-image-03.jpg);
     background-size: cover;
 }
 
 
 .p3 {
-    background-image: url(../images/hero/0.jpg);
+    background-image: url(../images/lg/lg-image-02.jpg);
     background-size: cover;
 }
 
 
 .p4 {
-    background-image: url(../images/hero/1.jpg);
+    background-image: url(../images/lg/lg-image-04.jpg);
     background-size: cover;
 }
 
 
 .p5 {
-    background-image: url(../images/hero/0.jpg);
+    background-image: url(../images/lg/lg-image-05.jpg);
     background-size: cover;
 }
 
 
 .p6 {
-    background-image: url(../images/hero/1.jpg);
+    background-image: url(../images/lg/lg-image-06.jpg);
     background-size: cover;
 }
 
 
 .p7 {
-    background-image: url(../images/hero/0.jpg);
+    background-image: url(../images/lg/lg-image-07.jpg);
     background-size: cover;
 }
 
 
 .p8 {
-    background-image: url(../images/hero/1.jpg);
+    background-image: url(../images/lg/lg-image-01.jpg);
     background-size: cover;
 }
 
 
 .p9 {
-    background-image: url(../images/hero/0.jpg);
+    background-image: url(../images/lg/lg-image-02.jpg);
     background-size: cover;
 }
 
 
 .p10 {
-    background-image: url(../images/hero/1.jpg);
+    background-image: url(../images/lg/lg-image-03.jpg);
     background-size: cover;
 }
 
 
 .p11 {
-    background-image: url(../images/hero/0.jpg);
+    background-image: url(../images/lg/lg-image-04.jpg);
     background-size: cover;
 }
 
 .p12 {
-    background-image: url(../images/hero/1.jpg);
+    background-image: url(../images/lg/lg-image-05.jpg);
     background-size: cover;
 }
 
